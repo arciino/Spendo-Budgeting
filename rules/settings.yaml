@@ -1,0 +1,45 @@
+date_parse:
+  dayfirst: true
+  yearfirst: false
+auto_sign_detection: true
+category_signs:
+  Income: 1
+  Groceries: -1
+  Eating Out: -1
+  Transport: -1
+  Subscriptions: -1
+  Rent: -1
+  Utilities: -1
+  Insurance: -1
+  Health & Pharmacy: -1
+  Sport & Leisure: -1
+  Clothing & Shopping: -1
+  Travel: -1
+  Gifts & Charity: -1
+  Taxes & Administration: -1
+  Education & Courses: -1
+  Home & Furniture: -1
+  Personal Care: -1
+  Finance & Banking: -1
+  Other: -1
+category_colors:
+  Groceries: '#27ae60'
+  Rent: '#e74c3c'
+  Eating Out: '#f39c12'
+  Transport: '#3498db'
+  Subscriptions: '#9b59b6'
+  Utilities: '#1abc9c'
+  Insurance: '#16a085'
+  Health & Pharmacy: '#e67e22'
+  Sport & Leisure: '#8e44ad'
+  Clothing & Shopping: '#9b59b6'
+  Travel: '#2980b9'
+  Gifts & Charity: '#d35400'
+  Taxes & Administration: '#c0392b'
+  Education & Courses: '#7f8c8d'
+  Home & Furniture: '#95a5a6'
+  Personal Care: '#bdc3c7'
+  Finance & Banking: '#34495e'
+  Income: '#16a085'
+  Other: '#95a5a6'
+theme: light

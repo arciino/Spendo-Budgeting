@@ -1,0 +1,246 @@
+rules:
+- category: Income
+  keywords:
+  - salaire
+  - salary
+  - payroll
+  - refund
+  - remboursement
+  - interest
+  - cashback
+  - transfer in
+  - incoming
+- category: Rent
+  keywords:
+  - loyer
+  - rent
+  - régie
+  - immobilière
+  - cogestim
+- category: Groceries
+  keywords:
+  - migros
+  - coop
+  - aldi
+  - lidl
+  - denner
+  - manor food
+  - spar
+  - grocery
+  - marché
+- category: Eating Out
+  keywords:
+  - mcdonald
+  - burger king
+  - kfc
+  - pizza
+  - restaurant
+  - café
+  - bar
+  - takeaway
+  - kebab
+  - sushi
+  - pub
+  - drink
+  - starbucks
+  - Eni Eni Lausanne, Rhodanie
+- category: Transport
+  keywords:
+  - sbb
+  - cff
+  - t-l
+  - tl lausanne
+  - m1
+  - train
+  - bus
+  - metro
+  - uber
+  - taxi
+  - mobility
+  - parking
+  - autoroute
+  - recharge
+  - gas
+  - fuel
+  - essence
+- category: Subscriptions
+  keywords:
+  - netflix
+  - spotify
+  - disney
+  - youtube
+  - adobe
+  - icloud
+  - apple
+  - google storage
+  - canal
+  - prime
+  - chatgpt
+  - microsoft
+  - xbox
+  - playstation
+  - steam
+- category: Utilities
+  keywords:
+  - électricité
+  - electricité
+  - electric
+  - gaz
+  - gas
+  - eau
+  - water
+  - heating
+  - sil
+  - swisscom
+  - salt
+  - wingo
+  - internet
+  - mobile
+  - natel
+  - phone
+  - bill
+  - facture
+- category: Insurance
+  keywords:
+  - assurance
+  - sanitas
+  - helvetia
+  - css
+  - visana
+  - die mobiliar
+  - smile
+  - sympany
+- category: Health & Pharmacy
+  keywords:
+  - pharmacie
+  - pharmacy
+  - amavita
+  - sunstore
+  - galenica
+  - doctor
+  - médecin
+  - dentist
+  - opticien
+  - optical
+  - fitness
+  - gym
+  - physiotherapy
+  - hospital
+- category: Sport & Leisure
+  keywords:
+  - decathlon
+  - sportxx
+  - intersport
+  - running
+  - race
+  - registration
+  - event
+  - ticket
+  - concert
+  - cinema
+  - theatre
+  - museum
+- category: Clothing & Shopping
+  keywords:
+  - zalando
+  - h&m
+  - zara
+  - uniqlo
+  - c&a
+  - manor
+  - globus
+  - fashion
+  - clothes
+  - boutique
+- category: Travel
+  keywords:
+  - easyjet
+  - swiss air
+  - trainline
+  - booking
+  - airbnb
+  - hostel
+  - hotel
+  - expedia
+  - flixbus
+  - trip
+  - voyage
+- category: Gifts & Charity
+  keywords:
+  - cadeau
+  - gift
+  - donation
+  - charity
+  - fund
+  - crowdfunding
+  - gofundme
+  - kickstarter
+- category: Taxes & Administration
+  keywords:
+  - impôt
+  - impots
+  - tax
+  - canton
+  - commune
+  - office
+  - amende
+  - fine
+  - administrative
+- category: Education & Courses
+  keywords:
+  - unil
+  - université
+  - formation
+  - course
+  - training
+  - udemy
+  - coursera
+  - edx
+  - tuition
+  - books
+- category: Home & Furniture
+  keywords:
+  - ikea
+  - conforama
+  - jumbo
+  - brico
+  - castorama
+  - hornbach
+  - migros bricolage
+  - decoshop
+  - meubles
+  - meubles
+- category: Personal Care
+  keywords:
+  - coiffeur
+  - barber
+  - hair
+  - nails
+  - beautician
+  - body shop
+  - cosmetic
+  - Barber
+  - JL Barber
+- category: Finance & Banking
+  keywords:
+  - ub
+  - zkb
+  - raiffeisen
+  - postfinance
+  - revolut
+  - wise
+  - paypal
+  - transferwise
+  - currency
+  - credit card
+  - visa
+  - mastercard
+  - cembra
+  - refund fee
+  - interest
+- category: Other
+  keywords:
+  - unknown
+  - divers
+  - misc
+  - autre

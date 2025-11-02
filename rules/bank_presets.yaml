@@ -1,0 +1,33 @@
+presets:
+  - name: "MigrosCC1"
+    match:
+      filename_contains: ["Migros"]     # put a keyword from your CSV filename
+      header_contains: ["Date"]         # must exist in the CSV header
+    mapping:
+      date: "Date"
+      description: "Details"            # change to your actual column
+      amount: "Amount"
+      currency: "Currency"
+      transaction_id: ""                # leave blank if none
+    delimiter: ","
+    date_format: "%d.%m.%Y %H:%M"       # <- your format
+    dayfirst: true
+    yearfirst: false
+
+
+  - name: "Stress Test (dd.mm.yyyy HH:MM)"
+    match:
+      filename_contains: ["budget_stress_test"]
+      header_contains: ["Date","Amount","Currency","MerchantName","Details"]
+    mapping:
+      date: "Date"
+      description: "Details"   # or use build_description to join both
+      amount: "Amount"
+      currency: "Currency"
+      transaction_id: "TransactionID"
+    build_description: ["MerchantName","Details"]   # concatenates nicely
+    delimiter: ","
+    date_format: "%d.%m.%Y %H:%M"
+    dayfirst: true
+    yearfirst: false
+

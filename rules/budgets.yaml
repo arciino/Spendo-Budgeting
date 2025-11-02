@@ -1,0 +1,9 @@
+budgets:
+- category: Groceries
+  amount: 400
+- category: Rent
+  amount: 1200
+- category: Transport
+  amount: 150
+- category: Eating Out
+  amount: 200

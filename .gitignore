@@ -1,0 +1,56 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+.env/
+ENV/
+Pipfile
+Pipfile.lock
+
+# --- Streamlit cache ---
+.streamlit/
+.streamlit_cache/
+.cache/
+# You can keep config.toml if you need custom theme settings
+# Uncomment next line if you want to ignore your local Streamlit config
+#.streamlit/config.toml
+
+# --- macOS system files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# --- IDE / Editor files ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Logs & temp files ---
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# --- Jupyter / notebooks (if any) ---
+.ipynb_checkpoints/
+
+# --- Build / distribution files ---
+build/
+dist/
+*.egg-info/
