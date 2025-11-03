@@ -1,5 +1,7 @@
 rules:
 - category: Income
+  priority: 0
+  regex: false
   keywords:
   - salaire
   - salary
@@ -10,14 +12,20 @@ rules:
   - cashback
   - transfer in
   - incoming
+  negative_keywords: []
 - category: Rent
+  priority: 0
+  regex: false
   keywords:
   - loyer
   - rent
   - régie
   - immobilière
   - cogestim
+  negative_keywords: []
 - category: Groceries
+  priority: 0
+  regex: false
   keywords:
   - migros
   - coop
@@ -28,7 +36,10 @@ rules:
   - spar
   - grocery
   - marché
+  negative_keywords: []
 - category: Eating Out
+  priority: 0
+  regex: false
   keywords:
   - mcdonald
   - burger king
@@ -43,8 +54,11 @@ rules:
   - pub
   - drink
   - starbucks
-  - Eni Eni Lausanne, Rhodanie
+  - pizzeria
+  negative_keywords: []
 - category: Transport
+  priority: 0
+  regex: false
   keywords:
   - sbb
   - cff
@@ -63,7 +77,10 @@ rules:
   - gas
   - fuel
   - essence
+  negative_keywords: []
 - category: Subscriptions
+  priority: 0
+  regex: false
   keywords:
   - netflix
   - spotify
@@ -80,7 +97,10 @@ rules:
   - xbox
   - playstation
   - steam
+  negative_keywords: []
 - category: Utilities
+  priority: 0
+  regex: false
   keywords:
   - électricité
   - electricité
@@ -100,7 +120,10 @@ rules:
   - phone
   - bill
   - facture
+  negative_keywords: []
 - category: Insurance
+  priority: 0
+  regex: false
   keywords:
   - assurance
   - sanitas
@@ -110,7 +133,10 @@ rules:
   - die mobiliar
   - smile
   - sympany
+  negative_keywords: []
 - category: Health & Pharmacy
+  priority: 0
+  regex: false
   keywords:
   - pharmacie
   - pharmacy
@@ -126,7 +152,10 @@ rules:
   - gym
   - physiotherapy
   - hospital
+  negative_keywords: []
 - category: Sport & Leisure
+  priority: 0
+  regex: false
   keywords:
   - decathlon
   - sportxx
@@ -140,7 +169,10 @@ rules:
   - cinema
   - theatre
   - museum
+  negative_keywords: []
 - category: Clothing & Shopping
+  priority: 0
+  regex: false
   keywords:
   - zalando
   - h&m
@@ -152,7 +184,10 @@ rules:
   - fashion
   - clothes
   - boutique
+  negative_keywords: []
 - category: Travel
+  priority: 0
+  regex: false
   keywords:
   - easyjet
   - swiss air
@@ -165,7 +200,10 @@ rules:
   - flixbus
   - trip
   - voyage
+  negative_keywords: []
 - category: Gifts & Charity
+  priority: 0
+  regex: false
   keywords:
   - cadeau
   - gift
@@ -175,7 +213,10 @@ rules:
   - crowdfunding
   - gofundme
   - kickstarter
+  negative_keywords: []
 - category: Taxes & Administration
+  priority: 0
+  regex: false
   keywords:
   - impôt
   - impots
@@ -186,7 +227,10 @@ rules:
   - amende
   - fine
   - administrative
+  negative_keywords: []
 - category: Education & Courses
+  priority: 0
+  regex: false
   keywords:
   - unil
   - université
@@ -198,7 +242,10 @@ rules:
   - edx
   - tuition
   - books
+  negative_keywords: []
 - category: Home & Furniture
+  priority: 0
+  regex: false
   keywords:
   - ikea
   - conforama
@@ -210,7 +257,10 @@ rules:
   - decoshop
   - meubles
   - meubles
+  negative_keywords: []
 - category: Personal Care
+  priority: 0
+  regex: false
   keywords:
   - coiffeur
   - barber
@@ -221,7 +271,10 @@ rules:
   - cosmetic
   - Barber
   - JL Barber
+  negative_keywords: []
 - category: Finance & Banking
+  priority: 0
+  regex: false
   keywords:
   - ub
   - zkb
@@ -238,9 +291,20 @@ rules:
   - cembra
   - refund fee
   - interest
+  negative_keywords: []
 - category: Other
+  priority: 0
+  regex: false
   keywords:
   - unknown
   - divers
   - misc
   - autre
+  negative_keywords: []
+- category: Online Shopping
+  priority: 0
+  regex: false
+  keywords:
+  - galaxus
+  - digitech
+  negative_keywords: []

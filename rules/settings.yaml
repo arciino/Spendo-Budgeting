@@ -24,8 +24,8 @@ category_signs:
   Other: -1
 category_colors:
   Groceries: '#27ae60'
-  Rent: '#e74c3c'
-  Eating Out: '#f39c12'
+  Rent: '#00fff3'
+  Eating Out: '#ff003a'
   Transport: '#3498db'
   Subscriptions: '#9b59b6'
   Utilities: '#1abc9c'
@@ -42,4 +42,5 @@ category_colors:
   Finance & Banking: '#34495e'
   Income: '#16a085'
   Other: '#95a5a6'
+  Online Shopping: '#d877d4'
 theme: light
